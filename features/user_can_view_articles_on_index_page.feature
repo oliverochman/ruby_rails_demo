@@ -14,3 +14,4 @@ Scenario: User see some article headlines if there are some articles in the data
     When I visit the site
     Then I should see "A breaking news item"
     And I should see "Some really breaking action"
+    And show me the page
